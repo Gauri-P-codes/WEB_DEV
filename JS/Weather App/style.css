@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #08041e;
+  color: aliceblue;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #10133d;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -2px 2px 12px rgb(128, 188, 193);
+}
+#weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+#input-city {
+  padding: 5px;
+  border-radius: 2px;
+  width: 60%;
+}
+#btn {
+  padding: 5px;
+  padding-bottom: 10px;
+  background-color: rgb(3, 76, 108);
+  color: white;
+  width: 25%;
+  margin: 12px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#btn:hover {
+  background-color: rgb(6, 104, 146);
+}
+#error-msg {
+  color: #ff5722;
+  margin-top: 20px;
+}
